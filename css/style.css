@@ -7,6 +7,8 @@
 
 body {
     background-color: #011627;
+
+    font-family: sans-serif;
 }
 
 .container {
@@ -24,11 +26,21 @@ body {
 }
 
 .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 100px;
     height: 100px;
     border: solid 1px white;
+
+    color: #7fffd4;
+
+
 }
 
 .square.active {
     background-color: #7fffd4;
+    color: #011627;
+    font-weight: bold;
 }
