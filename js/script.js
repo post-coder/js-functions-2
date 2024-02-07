@@ -37,7 +37,16 @@ for(let i = 0; i < 49; i++) {
         // di conseguenza possiamo manipolarlo a livello html come siamo abituati
         this.classList.toggle("active");
 
-        
+
+        // controlliamo se il numero cliccato è pari o dispari
+        if(this.innerText % 2 == 0) {
+            // se è pari
+            this.classList.toggle("even");
+        } else {
+            this.classList.toggle("odd");
+        }
+
+                
     });
 
 

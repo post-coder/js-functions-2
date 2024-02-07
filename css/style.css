@@ -40,7 +40,15 @@ body {
 }
 
 .square.active {
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
     color: #011627;
     font-weight: bold;
+}
+
+.square.active.even {
+    background-color: #ff0088;
+}
+
+.square.active.odd {
+    background-color: #0088ff;
 }
